@@ -1,7 +1,13 @@
 # STREAMS DATA
 
 ## Inicializar o servidor
-- <b>yarn dev</b> ou <b>npm run dev</b>
+- yarn dev
+- npm run dev
 
 ## Solicitar requisição
-- curl -N localhost:3000  
+- yarn request
+- npm run request
+
+## Observar o Header da requisição
+- yarn request:options
+- npm run request:options
