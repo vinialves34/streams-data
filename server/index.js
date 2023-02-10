@@ -17,7 +17,7 @@ createServer(async (request, response) => {
   }
 
   let items = 0;
-  Readable.toWeb(createReadStream("./cities.csv"))
+  Readable.toWeb(createReadStream("./mocks/users.csv"))
   .pipeTo(new WritableStream({
     write(chunk) {
       items++
