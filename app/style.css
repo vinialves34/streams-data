@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.grid>article {
+  border: 1px solid #ccc;
+}
+
+.text {
+  text-align: center;
+}
+
+.header-card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
